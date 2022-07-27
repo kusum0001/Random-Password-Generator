@@ -18,6 +18,7 @@ function copyPassword(){
   copyText.select();
   copyText.setSelectionRange(0,999);
   document.execCommand("copy");
+    copyText(div.innerText().then(() => alert (Text Copied));
  
   
 } 
